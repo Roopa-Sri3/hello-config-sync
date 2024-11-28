@@ -1,6 +1,6 @@
 apiVersion: configmanagement.gke.io/v1
 kind: Repo
 metadata:
-  name: repo
+  name: repo1
 spec:
   version: 1.0.0
