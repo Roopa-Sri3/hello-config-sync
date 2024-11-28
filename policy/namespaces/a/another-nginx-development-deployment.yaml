@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   annotations:
-    configmanagement.gke.io/cluster-selector: development
+    configmanagement.gke.io/cluster-selector: staging
   labels:
     run: another-nginx
   name: another-nginx
