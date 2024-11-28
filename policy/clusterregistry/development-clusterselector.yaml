@@ -1,9 +1,9 @@
 kind: ClusterSelector
 apiVersion: configmanagement.gke.io/v1
 metadata:
-  name: development
+  name: staging
 spec:
   selector:
     matchLabels:
-      environment: development
+      environment: staging
 
